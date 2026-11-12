@@ -1,0 +1,474 @@
+{
+  "QCOLORS": {
+    "link": [
+      52,
+      65,
+      77,
+      115
+    ],
+    "link_out": [
+      52,
+      65,
+      77,
+      70
+    ],
+    "link_colour": [
+      0,
+      150,
+      174,
+      230
+    ],
+    "link_colour_out": [
+      0,
+      150,
+      174,
+      60
+    ],
+    "window": [
+      0,
+      158,
+      115,
+      38
+    ],
+    "perf_window": [
+      0,
+      114,
+      178,
+      60
+    ],
+    "band": [
+      0,
+      114,
+      178,
+      30
+    ]
+  },
+  "COLORS": {
+    "bg": "#DDE2E8",
+    "roll": "#FFFFFF",
+    "black_key": "#F1F3F6",
+    "grid": "#E4E8ED",
+    "octave": "#C6CDD5",
+    "border": "#A7B0BA",
+    "active": "#34414D",
+    "text": "#34414D",
+    "text_dim": "#6B7784",
+    "perf": "#0072B2",
+    "perf_edge": "#004E7A",
+    "score": "#009E73",
+    "score_edge": "#006B4E",
+    "unaligned": "#D55E00",
+    "unaligned_edge": "#8A3D00",
+    "selected": "#F0E442",
+    "selected_edge": "#222222",
+    "hilite": "#000000",
+    "overview_note": "#98A3AE",
+    "anchor": "#CC79A7",
+    "mismatch": "#CC79A7",
+    "mismatch_edge": "#8F4F74",
+    "playhead": "#D7263D",
+    "other_pass": "#AEB8C2",
+    "other_pass_edge": "#5E6B78",
+    "ornament": "#34414D",
+    "comment": "#34414D",
+    "comment_text": "#FFFFFF",
+    "resolved": "#C6CDD5",
+    "resolved_text": "#34414D"
+  },
+  "NOTE_COLOURS": {
+    "mismatch": "Linked to another pitch",
+    "unaligned": "Without a link",
+    "selected": "Selected"
+  },
+  "LINK_STYLES": [
+    "colour",
+    "dashed"
+  ],
+  "RASTER_NOTES": 1500,
+  "LABEL_MODES": [
+    "pitch",
+    "id",
+    "off"
+  ],
+  "LABEL_PX": 11,
+  "LABEL_HOVER_PX": 18,
+  "STRIP_HINTS": {
+    "Both rolls": "Drag, click or scroll here to move both rolls, or press Alt/Option+← →. They move together and keep their offset; F lines them up.",
+    "Full score": "Drag, click or scroll here to move the score roll. The performance roll stays where it is, unless Follow the alignment is on.",
+    "Full performance": "Drag, click or scroll here to move the performance roll. The score roll stays where it is, unless Follow the alignment is on.",
+    "Playhead": "Click or drag here to put the playhead. Space or Z plays the performance from it."
+  },
+  "PROGRESS_DELAY_MS": 300,
+  "KEY_CAP": "#D3D9E0",
+  "CONTROLS": [
+    [
+      "Moving around",
+      [
+        [
+          "Move in time",
+          "Scroll or swipe",
+          [
+            "←",
+            "→"
+          ]
+        ],
+        [
+          "Move both rolls",
+          "Scroll between them, or drag the bar there",
+          [
+            "Alt/Option+←",
+            "Alt/Option+→"
+          ]
+        ],
+        [
+          "Move the performance roll",
+          "Drag or scroll the strip at the top",
+          []
+        ],
+        [
+          "Move the score roll",
+          "Drag or scroll the strip at the bottom",
+          []
+        ],
+        [
+          "Move through pitches",
+          "Shift+scroll",
+          [
+            "↑",
+            "↓"
+          ]
+        ],
+        [
+          "Zoom",
+          "Ctrl/Cmd+scroll or pinch",
+          [
+            "+",
+            "−"
+          ]
+        ],
+        [
+          "Row height",
+          "Alt+scroll",
+          [
+            "Ctrl/Cmd+↑",
+            "Ctrl/Cmd+↓"
+          ]
+        ],
+        [
+          "Reset the view",
+          "",
+          [
+            "0"
+          ]
+        ],
+        [
+          "Keys to the other roll",
+          "",
+          [
+            "Tab"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Selecting",
+      [
+        [
+          "Select notes",
+          "Click; Shift+click adds",
+          []
+        ],
+        [
+          "Select a box of notes",
+          "Drag across empty space",
+          []
+        ],
+        [
+          "Select a link",
+          "Click it",
+          []
+        ],
+        [
+          "Clear the selection",
+          "",
+          [
+            "Esc"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Links",
+      [
+        [
+          "Link two notes",
+          "Drag from one to the other",
+          []
+        ],
+        [
+          "Link selected notes to one note",
+          "Drag one of them to it",
+          []
+        ],
+        [
+          "Link the selected notes",
+          "",
+          [
+            "A",
+            "L",
+            "Enter"
+          ]
+        ],
+        [
+          "Link them instead of their other links",
+          "Replace links",
+          [
+            "Q"
+          ]
+        ],
+        [
+          "Remove links",
+          "",
+          [
+            "S"
+          ]
+        ],
+        [
+          "Realign the selection",
+          "",
+          [
+            "R"
+          ]
+        ],
+        [
+          "Set or clear an anchor",
+          "",
+          [
+            "P"
+          ]
+        ],
+        [
+          "Pitches a note can be a pitch error of",
+          "Click it: Pitch errors panel",
+          []
+        ]
+      ]
+    ],
+    [
+      "Annotations",
+      [
+        [
+          "Mark an ornament",
+          "Then its performance notes, then its score note",
+          [
+            "T"
+          ]
+        ],
+        [
+          "Remove an ornament",
+          "Click its box, then Remove",
+          [
+            "Delete"
+          ]
+        ],
+        [
+          "Add a comment",
+          "Select its performance notes",
+          [
+            "C"
+          ]
+        ],
+        [
+          "Read a comment",
+          "Hover its box or its marker",
+          []
+        ],
+        [
+          "Mark a section",
+          "Select its performance notes",
+          [
+            "M"
+          ]
+        ],
+        [
+          "Delete a section",
+          "Choose it: the bar with its name, or in the list",
+          [
+            "Delete"
+          ]
+        ],
+        [
+          "Delete a comment",
+          "Open it: its marker, or in the list",
+          [
+            "Delete"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Passages played again",
+      [
+        [
+          "Find them",
+          "Find repetitions",
+          []
+        ]
+      ]
+    ],
+    [
+      "Showing",
+      [
+        [
+          "Follow the alignment",
+          "",
+          [
+            "F"
+          ]
+        ],
+        [
+          "Links from outside the view",
+          "",
+          [
+            "O"
+          ]
+        ],
+        [
+          "Link colours",
+          "Links in the View group",
+          []
+        ],
+        [
+          "Move a dock",
+          "Drag its title bar; View > Lock layout",
+          []
+        ],
+        [
+          "Hide the selection's links",
+          "Hide links",
+          [
+            "H"
+          ]
+        ],
+        [
+          "Show all hidden links",
+          "Show all links",
+          [
+            "Shift+H"
+          ]
+        ],
+        [
+          "Note names",
+          "",
+          [
+            "N"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Listening",
+      [
+        [
+          "Play from the playhead, or stop",
+          "Play in the sidebar",
+          [
+            "Space",
+            "Z"
+          ]
+        ],
+        [
+          "Move the playhead",
+          "Click or drag the time bar above the performance",
+          []
+        ],
+        [
+          "Hear a note",
+          "Point at it, or select notes",
+          [
+            "E"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Undo and saving",
+      [
+        [
+          "Undo and redo",
+          "Undo, Redo at the top",
+          [
+            "Ctrl/Cmd+Z",
+            "Ctrl/Cmd+Shift+Z"
+          ]
+        ],
+        [
+          "Save for later",
+          "",
+          [
+            "Ctrl/Cmd+Alt+S"
+          ]
+        ],
+        [
+          "Continue saved work",
+          "Start page or File > Continue Work",
+          []
+        ],
+        [
+          "Export: CSV files or .match",
+          "Save and Export",
+          [
+            "Ctrl/Cmd+S"
+          ]
+        ],
+        [
+          "New alignment",
+          "Start page",
+          [
+            "Ctrl/Cmd+N"
+          ]
+        ]
+      ]
+    ]
+  ],
+  "SCORE_SUFFIXES": [
+    ".musicxml",
+    ".xml",
+    ".mxl"
+  ],
+  "PERFORMANCE_SUFFIXES": [
+    ".mid",
+    ".midi"
+  ],
+  "MIN_NOTES": 3,
+  "METHODS": {
+    "dualdtw": [
+      "Dual DTW",
+      "parangonar's DualDTWNoteMatcher: aligns the onsets first, then the notes. Copes well with extra and missing notes."
+    ],
+    "automatic": [
+      "Automatic",
+      "parangonar's AutomaticNoteMatcher: time warping over the passage, then note matching."
+    ],
+    "outerhmm": [
+      "Outer HMM",
+      "parangonar's SwitchingOuterHMMMatcher, for rehearsals: follows the performance through the whole score, with skips, repeats and new starts anywhere. A new alignment gets the sections it finds."
+    ],
+    "anchors": [
+      "Anchor points",
+      "parangonar's AnchorPointNoteMatcher, guided by your anchors and by the links just before and after the passage."
+    ]
+  },
+  "DEFAULT_METHOD": "dualdtw",
+  "TIMING": "Aligning takes about 10 seconds for 2,000 notes with Dual DTW and half a minute with Automatic. A long piece can take a few minutes. Outer HMM is for rehearsals: it follows their jumps and repeats, and finds their sections.",
+  "DEFAULT_COLOURS": {
+    "mismatch": "#CC79A7",
+    "unaligned": "#D55E00",
+    "selected": "#F0E442"
+  },
+  "NEW_METHODS": [
+    "dualdtw",
+    "automatic",
+    "outerhmm"
+  ]
+}
